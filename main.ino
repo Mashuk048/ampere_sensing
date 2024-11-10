@@ -46,10 +46,10 @@ String  did = "DOT_AMP_002";//might change so didn't define as const char*
 String  type = "current_sensor";
 
 //MQTT  credentials
-const char* mqtt_server = "broker.datasoft-bd.com";
+const char* mqtt_server = "********";// give broker address i.e. broker.hivemq.com
 const int mqttPort = 1883;
-const char *mqtt_user = "iotdatasoft";
-const char *mqtt_pass = "brokeriot2o2o";
+const char *mqtt_user = "";
+const char *mqtt_pass = "";
 int mqttTryCounter = 0;
 
 
